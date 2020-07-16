@@ -228,6 +228,7 @@ li {
 @media screen and (min-width: 769px) {
   .main-container {
     height: 100vh;
+    padding-bottom: 10px;
   }
   .main-container .header {
     padding: 10px 200px;
@@ -271,7 +272,7 @@ li {
     padding-bottom: 0px;
   }
   .main-container .section-right-background img {
-    height: 300px;
+    height: 280px;
     width: 700px;
     -webkit-transform: translate(0px, 120px);
             transform: translate(0px, 120px);
