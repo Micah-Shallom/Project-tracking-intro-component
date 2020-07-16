@@ -1,4 +1,17 @@
-@media screen and (min-width:768px){
+@media screen and (orientation:landscape) and (min-width:576px){
+  .main-container{
+    .popModal{
+      transform: translate(-50%,-45%);
+      ul{
+        li{
+          padding: 6px 30px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width:769px){
   .main-container{
     height: 100vh;
     .header{
